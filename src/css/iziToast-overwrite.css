@@ -81,6 +81,7 @@
   line-height: unset;
   margin-top: 0;
   color: unset;
+  min-width: 24px;
   width: 24px;
   height: 24px;
 }
@@ -106,6 +107,7 @@
   border: 0;
   padding: 0;
   opacity: 1;
+  min-width: 16px;
   width: 16px;
   height: 16px;
 
