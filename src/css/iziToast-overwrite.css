@@ -14,6 +14,8 @@
   border-radius: 4px;
 
   overflow: hidden;
+
+  max-width: 432px;
 }
 
 .iziToast.iziToast-color-red {
