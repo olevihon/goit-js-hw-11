@@ -10,7 +10,7 @@ export const fetchPhotos = query => {
     safesearch: true,
   });
 
-  return fetch(`${BASE_URL}/?${searchParams}`).then(response => {
+  return fetch(`${BASE_URL}?${searchParams}`).then(response => {
     if (!response.ok) {
       throw new Error(response.statusText);
     }
